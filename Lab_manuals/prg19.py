@@ -1,0 +1,15 @@
+#Implement list methods
+my_list=[10, 20, 30, 40, 50, 20, 20, 40]
+print("Original list:", my_list)
+count=int(input("Enter element to count occurances: "))
+print(f"Count of {count}:", my_list.count(count))
+find=int(input("Enter element to find index: "))
+print(f"Index of {find}:", my_list.index(find))
+another_list=list(map(int, input("Enter elements of another list(space seperated): ").split()))
+my_list.extend(another_list)
+print("List after extend:", my_list)
+popped=my_list.pop()
+print("Popped Element:", popped)
+print("List after pop:", my_list)
+my_list.clear()
+print("List after clear:", my_list)
