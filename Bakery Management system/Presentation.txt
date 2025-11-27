@@ -1,0 +1,116 @@
+📌 Slide 1 — Title Slide
+Bakery Management System (Python + File Handling)
+
+Presented by: [Your Name]
+Department: [Your Dept]
+College: [College Name]
+
+Overview:
+A simple Python-based system to manage bakery menu items and user accounts using file handling.
+
+📌 Slide 2 — Why Bakery Owners Need This System
+How This System Helps Bakery Owners
+
+Centralized Menu Management
+– Owners can easily add, delete, or update bakery items.
+
+Faster Customer Service
+– Quick search option helps staff locate items instantly.
+
+Secure Access Control
+– Only admins can modify menu items; staff have limited access.
+
+Simple Employee Operations
+– Staff (normal users) can view menu and update their own mobile details.
+
+Low Cost & No Database Required
+– Uses simple text files (users.txt, menu.txt) → ideal for small bakeries.
+
+Organized, Accurate Digital Records
+– Reduces the chance of errors from manual or paper-based records.
+
+📌 Slide 3 — System Features
+Key Features of the Program
+
+✔ User Login System
+Validates username & password from file.
+
+✔ Admin & User Roles
+Admin has full control; users have limited options.
+
+✔ Menu Operations
+View, search, add, delete items.
+
+✔ User Profile Editing
+Users can update mobile number with validation.
+
+✔ Persistent File Storage
+All changes saved to users.txt and menu.txt.
+
+📌 Slide 4 — Components Used in the System
+Core Components & Concepts
+
+🟩 Python File Handling
+
+Reading/writing user data
+
+Reading/writing menu data
+
+🟩 Functions for Modularity
+
+load_users(), save_users()
+
+load_menu(), save_menu()
+
+login(), view_menu(), search_item()
+
+add_item(), delete_item()
+
+admin_panel(), user_panel()
+
+🟩 Input Validation
+
+Mobile number verification (10 digits, starts with 9)
+
+🟩 Role-Based Access Control
+
+Different menus for admin and normal users
+
+📌 Slide 5 — System Workflow
+How the System Works
+
+1️⃣ System starts → loads users.txt & menu.txt
+2️⃣ User enters username and password
+3️⃣ System checks credentials
+4️⃣ If Admin → access admin panel
+5️⃣ If User → access limited user panel
+6️⃣ Every change is saved back to files
+
+Ensures both data integrity and easy access.
+
+📌 Slide 6 — Conclusion
+Final Outcome & Learnings
+
+Built a real-world application using Python file handling
+
+Implemented:
+
+Login authentication
+
+Role-based access
+
+Menu CRUD operations
+
+User info editing
+
+Helps small bakery owners manage menu & staff more efficiently
+
+Can be expanded into:
+
+GUI application
+
+Database system
+
+Web-based bakery management tool
+
+Thank You!
